@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Amaury Jorge Cardoso Bello da Silva</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        .contact-info div {
+            display: flex;
+            align-items: center;
+        }
+        .contact-info i {
+            margin-right: 5px;
+            color: #3498db;
+        }
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 25px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .job, .education {
+            margin-bottom: 20px;
+        }
+        .job-title, .education-title {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        .company, .institution {
+            font-style: italic;
+        }
+        .date {
+            color: #7f8c8d;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background-color: #e8f4fc;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+        @media (max-width: 600px) {
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+                gap: 5px;
+            }
+            .job-title, .education-title {
+                flex-direction: column;
+            }
+            .date {
+                margin-top: 3px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>AMAURY JORGE CARDOSO BELLO DA SILVA</h1>
+        <p>Brasileiro, 37 anos</p>
+        <div class="contact-info">
+            <div><i class="fas fa-map-marker-alt"></i> Rua Godofredo Silva, 92 – Rio de Janeiro/RJ – CEP: 21221-020</div>
+            <div><i class="fas fa-phone"></i> +55 (21) 97277-9896</div>
+            <div><i class="fas fa-envelope"></i> amaurybello2@gmail.com</div>
+            <div><i class="fab fa-linkedin"></i> linkedin.com/in/amaury-jorge-02607a181</div>
+        </div>
+    </header>
+
+    <section>
+        <h2>OBJETIVO</h2>
+        <p>Atuar como Programador Júnior, aplicando meus conhecimentos em implantação de sistemas, suporte técnico e configuração de redes, aliados à minha experiência em gestão de saúde inteligente. Busco oportunidades para desenvolver minhas habilidades em programação e contribuir com soluções tecnológicas inovadoras.</p>
+    </section>
+
+    <section>
+        <h2>FORMAÇÃO ACADÊMICA</h2>
+        <div class="education">
+            <div class="education-title">
+                <span class="institution">Universidade Veiga De Almeida</span>
+                <span class="date">02/2025 (Cursando)</span>
+            </div>
+            <p>Graduação em Análise e Desenvolvimento de Sistemas</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>EXPERIÊNCIA PROFISSIONAL</h2>
+        <div class="job">
+            <div class="job-title">
+                <span class="position">Service Desk Nível 1</span>
+                <span class="date">03/2024 – 04/2025</span>
+            </div>
+            <div class="company">PC Service Montreal</div>
+            <ul>
+                <li>Atendimento de suporte técnico de primeiro nível, resolvendo problemas de usuários finais.</li>
+                <li>Monitoramento de sistemas e redes para garantir a disponibilidade e desempenho.</li>
+                <li>Gestão de tickets, incluindo abertura, acompanhamento e resolução de chamados.</li>
+                <li>Utilização de ferramentas de monitoramento e gestão de tickets para otimizar o suporte técnico.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">
+                <span class="position">Técnico em Equipamentos de Informática</span>
+                <span class="date">06/2023 – 02/2024</span>
+            </div>
+            <div class="company">Imagem Center</div>
+            <ul>
+                <li>Realização de manutenção e suporte a produtos de informática em clínica de imagem.</li>
+                <li>Troca de toners, manutenção de máquinas e estações de atendimento.</li>
+                <li>Instalação e configuração de redes.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">
+                <span class="position">Implantador de Sistemas</span>
+                <span class="date">04/2022 – 05/2023</span>
+            </div>
+            <div class="company">Vital Soluções</div>
+            <ul>
+                <li>Configuração de setup para implantação de software de gestão em saúde inteligente.</li>
+                <li>Liderança de projetos locais, organização de equipamentos e treinamento de gestores.</li>
+                <li>Implantação de sistemas de imagens e laboratórios, montagem de laudos e direcionamento de arquivos para servidores online e offline.</li>
+                <li>Utilização de ferramentas internas e externas do sistema PACS.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">
+                <span class="position">Help Desk Nível II</span>
+                <span class="date">09/2016 – 04/2022</span>
+            </div>
+            <div class="company">Vital Soluções</div>
+            <ul>
+                <li>Suporte técnico híbrido (telefônico e presencial) para sistema de gestão em saúde inteligente.</li>
+                <li>Configuração de impressoras em rede, TCP/IP, servidores AD e PRESENCE.</li>
+                <li>Configuração de usuários e gestão local de saúde.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">
+                <span class="position">Suporte Técnico JR</span>
+                <span class="date">09/2015 – 12/2015</span>
+            </div>
+            <div class="company">West Internet</div>
+            <ul>
+                <li>Atendimento telefônico de suporte técnico para clientes de banda larga.</li>
+                <li>Configuração de roteadores e repetidores.</li>
+                <li>Atuação como backoffice para reativação de clientes inadimplentes.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>CURSOS E CERTIFICAÇÕES</h2>
+        <ul>
+            <li>Básico de Informática – 56 horas</li>
+            <li>Avançado de Informática – 60 horas (manutenção e configuração de microcomputadores)</li>
+            <li>Instalação e Configuração de Redes de Computadores – 20 horas</li>
+            <li>Pacote Office Avançado – 12 horas</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>HABILIDADES TÉCNICAS</h2>
+        <div class="skills">
+            <span class="skill">Implantação de sistemas de gestão em saúde inteligente</span>
+            <span class="skill">Manutenção de equipamentos de informática</span>
+            <span class="skill">Configuração de redes e servidores (AD, PRESENCE)</span>
+            <span class="skill">Sistemas PACS</span>
+            <span class="skill">Suporte técnico híbrido (nível II)</span>
+            <span class="skill">Configuração de impressoras e redes TCP/IP</span>
+            <span class="skill">Monitoramento de sistemas e redes</span>
+            <span class="skill">Gestão de tickets</span>
+            <span class="skill">Pacote Office (avançado)</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>IDIOMAS</h2>
+        <ul>
+            <li>Português: Nativo</li>
+            <li>Inglês: Básico (leitura e escrita técnica)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>INFORMAÇÕES ADICIONAIS</h2>
+        <ul>
+            <li>Facilidade de aprendizagem e adaptação a novos desafios</li>
+            <li>Disponibilidade para viagens e trabalho remoto (Home Office)</li>
+            <li>Comprometido com o crescimento da empresa e solução de problemas</li>
+            <li>Reconhecido pela Vital Soluções por facilidade de aprendizagem e dedicação durante a implantação de sistemas</li>
+        </ul>
+    </section>
+
+    <div class="no-print" style="text-align: center; margin-top: 30px; color: #7f8c8d; font-size: 0.9em;">
+        <p>Currículo atualizado em abril de 2025</p>
+    </div>
+</body>
+</html>
