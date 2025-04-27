@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaury Silva - Desenvolvedor Júnior</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --gray: #95a5a6;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--dark);
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--secondary);
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 2.2em;
+        }
+        .contact-info {
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            color: var(--gray);
+        }
+        .contact-info a {
+            color: var(--secondary);
+            text-decoration: none;
+        }
+        h2 {
+            color: var(--secondary);
+            border-bottom: 1px solid var(--light);
+            padding-bottom: 5px;
+            font-size: 1.4em;
+            margin-top: 25px;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .job, .education {
+            margin-bottom: 20px;
+        }
+        .job-title, .degree {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .company, .institution {
+            font-style: italic;
+            color: var(--gray);
+            margin-bottom: 10px;
+        }
+        .date {
+            color: var(--gray);
+            font-weight: normal;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+        }
+        .badge {
+            display: inline-block;
+            background-color: var(--light);
+            color: var(--dark);
+            padding: 3px 8px;
+            border-radius: 3px;
+            margin: 2px;
+            font-size: 0.8em;
+        }
+        @media print {
+            body {
+                background: none;
+            }
+            .container {
+                box-shadow: none;
+                padding: 10px;
+            }
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            .job-title, .degree {
+                flex-direction: column;
+            }
+            .date {
+                margin-top: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AMAURY JORGE CARDOSO BELLO DA SILVA</h1>
+            <div class="contact-info">
+                Brasileiro, 37 anos | Rua Godofredo Silva, 92 – Rio de Janeiro/RJ – CEP: 21221-020<br>
+                Telefone: +55 (21) 97277-9896 | E-mail: <a href="mailto:amaurybello2@gmail.com">amaurybello2@gmail.com</a><br>
+                LinkedIn: <a href="https://linkedin.com/in/amaury-jorge-02607a181" target="_blank">linkedin.com/in/amaury-jorge-02607a181</a>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Objetivo</h2>
+            <p>Atuar como Programador Júnior, aplicando meus conhecimentos em implantação de sistemas, suporte técnico e configuração de redes, aliados à minha experiência em gestão de saúde inteligente. Busco oportunidades para desenvolver minhas habilidades em programação e contribuir com soluções tecnológicas inovadoras.</p>
+        </section>
+
+        <section class="section">
+            <h2>Formação Acadêmica</h2>
+            <div class="education">
+                <div class="degree">
+                    <span>Graduação em Análise e Desenvolvimento de Sistemas</span>
+                    <span class="date">02/2025 - Cursando</span>
+                </div>
+                <div class="institution">Universidade Veiga De Almeida</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Experiência Profissional</h2>
+            <div class="job">
+                <div class="job-title">
+                    <span>Service Desk Nível 1</span>
+                    <span class="date">03/2024 – 04/2025</span>
+                </div>
+                <div class="company">PC Service Montreal</div>
+                <ul>
+                    <li>Atendimento de suporte técnico de primeiro nível, resolvendo problemas de usuários finais</li>
+                    <li>Monitoramento de sistemas e redes para garantir a disponibilidade e desempenho</li>
+                    <li>Gestão de tickets, incluindo abertura, acompanhamento e resolução de chamados</li>
+                    <li>Utilização de ferramentas de monitoramento e gestão de tickets para otimizar o suporte técnico</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-title">
+                    <span>Técnico em Equipamentos de Informática</span>
+                    <span class="date">06/2023 – 02/2024</span>
+                </div>
+                <div class="company">Imagem Center</div>
+                <ul>
+                    <li>Realização de manutenção e suporte a produtos de informática em clínica de imagem</li>
+                    <li>Troca de toners, manutenção de máquinas e estações de atendimento</li>
+                    <li>Instalação e configuração de redes</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-title">
+                    <span>Implantador de Sistemas</span>
+                    <span class="date">04/2022 – 05/2023</span>
+                </div>
+                <div class="company">Vital Soluções</div>
+                <ul>
+                    <li>Configuração de setup para implantação de software de gestão em saúde inteligente</li>
+                    <li>Liderança de projetos locais, organização de equipamentos e treinamento de gestores</li>
+                    <li>Implantação de sistemas de imagens e laboratórios, montagem de laudos e direcionamento de arquivos para servidores online e offline</li>
+                    <li>Utilização de ferramentas internas e externas do sistema PACS</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-title">
+                    <span>Help Desk Nível II</span>
+                    <span class="date">09/2016 – 04/2022</span>
+                </div>
+                <div class="company">Vital Soluções</div>
+                <ul>
+                    <li>Suporte técnico híbrido (telefônico e presencial) para sistema de gestão em saúde inteligente</li>
+                    <li>Configuração de impressoras em rede, TCP/IP, servidores AD e PRESENCE</li>
+                    <li>Configuração de usuários e gestão local de saúde</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Tecnologias</h3>
+                    <span class="badge">Implantação de sistemas</span>
+                    <span class="badge">Configuração de redes</span>
+                    <span class="badge">Servidores AD</span>
+                    <span class="badge">Sistemas PACS</span>
+                    <span class="badge">TCP/IP</span>
+                    <span class="badge">Monitoramento de redes</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Suporte</h3>
+                    <span class="badge">Help Desk Nível II</span>
+                    <span class="badge">Service Desk</span>
+                    <span class="badge">Gestão de tickets</span>
+                    <span class="badge">Suporte híbrido</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Outros</h3>
+                    <span class="badge">Pacote Office Avançado</span>
+                    <span class="badge">Manutenção de hardware</span>
+                    <span class="badge">Treinamento de usuários</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Cursos e Certificações</h2>
+            <ul>
+                <li>Básico de Informática – 56 horas</li>
+                <li>Avançado de Informática – 60 horas (manutenção e configuração de microcomputadores)</li>
+                <li>Instalação e Configuração de Redes de Computadores – 20 horas</li>
+                <li>Pacote Office Avançado – 12 horas</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Português: Nativo</li>
+                <li>Inglês: Básico (leitura e escrita técnica)</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Informações Adicionais</h2>
+            <ul>
+                <li>Reconhecido pela Vital Soluções por facilidade de aprendizagem e dedicação durante a implantação de sistemas</li>
+                <li>Facilidade de aprendizagem e adaptação a novos desafios</li>
+                <li>Disponibilidade para viagens e trabalho remoto (Home Office)</li>
+                <li>Comprometido com o crescimento da empresa e solução de problemas</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
